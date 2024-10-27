@@ -16,7 +16,17 @@ const BlogCards = ({ body, title, userId, id }: Props) => {
     navigate(`/detail/${id}`);
   }, []);
   return (
-    <Card variant="outlined" sx={{ height: "100%", flex: 1 , border:2, borderRadius:4, backgroundColor:"#F2EED7", borderColor:"#CBD2A4"}}>
+    <Card
+      variant="outlined"
+      sx={{
+        height: "100%",
+        flex: 1,
+        border: 2,
+        borderRadius: 4,
+        backgroundColor: "#F2EED7",
+        borderColor: "#CBD2A4",
+      }}
+    >
       <Stack spacing={2} direction={"column"} m={2}>
         <Typography
           onClick={handleNavigateToDetail}

@@ -8,7 +8,7 @@ type Props = {
 
 const BlogComments = ({ data }: Props) => {
   return (
-    <Stack direction={"column"} spacing={2}>
+    <Stack direction={"column"} spacing={2} >
         <Typography variant="h5">Comments</Typography>
       {data.map((item: any, index: number) => (
         <BlogComment key={index} {...item} />

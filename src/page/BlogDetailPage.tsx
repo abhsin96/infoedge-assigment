@@ -45,7 +45,7 @@ const BlogDetailPage = (props: Props) => {
     handleFetchBlogComments();
   }, []);
   return (
-    <Box p={2} px={10} gap={8} display={"flex"} flexDirection={"column"}>
+    <Box p={2} px={10} gap={8} display={"flex"} flexDirection={"column"} minHeight={"89.8vh"}> 
       <BlogDetail {...blogDetail} />
       <BlogComments data={blogComments}/>
     </Box>

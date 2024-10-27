@@ -8,7 +8,7 @@ function App() {
   const content = useRoutes(routers);
   return (
     <>
-      <Provider store={store}>{content}</Provider>
+      <Provider store={store} >{content}</Provider>
       <ToastContainer />
     </>
   );
