@@ -6,7 +6,7 @@ type Props = {};
 
 const Layout = ({}: Props) => {
   return (
-    <Box sx={{ backgroundColor: "#F2EED7" }} >
+    <Box  >
       <Navbar />
       <Box mt={8} height={"100%"} flex={1} >
         <Outlet />
